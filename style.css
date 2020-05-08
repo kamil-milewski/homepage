@@ -1,0 +1,47 @@
+body {
+    background: whitesmoke;
+}
+
+section {
+    background: black;
+}
+
+.main-heading {
+    color: #5eff00;
+}
+
+.secondary-heading {
+    color: #5eff00;
+}
+
+.third-heading {
+    color: #5eff00;
+}
+
+p {
+    color: white;
+}
+
+li {
+    color: white;
+}
+
+footer {
+    color: #0E103D;
+}
+
+.header {
+    background: black;
+}
+
+#top {
+    background: black; 
+}
+
+a {
+    color: #ff7300;
+}
+
+nav a {
+    color: #04ac26;
+}
