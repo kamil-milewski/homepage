@@ -1,47 +1,82 @@
 body {
-    background: whitesmoke;
+  background: whitesmoke;
 }
 
 section {
-    background: black;
+  background: black;
 }
 
 .main-heading {
-    color: #5eff00;
+  color: #5eff00;
 }
 
 .secondary-heading {
-    color: #5eff00;
+  color: #5eff00;
 }
 
 .third-heading {
-    color: #5eff00;
+  color: #5eff00;
 }
 
 p {
-    color: white;
+  color: white;
 }
 
 li {
-    color: white;
+  color: white;
 }
 
 footer {
-    color: #0E103D;
+  color: #0e103d;
 }
 
 .header {
-    background: black;
+  background: black;
 }
 
 #top {
-    background: black;
+  background: black;
 }
 
 a {
-    color: #ff7300;
+  color: #ff7300;
 }
 
 nav a {
-    color: #04ac26;
+  color: #04ac26;
+}
+
+.navigation {
+  background: #000000;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.navigation__link {
+  color: #fefefe;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navigation__link--homepage {
+  background: yellow;
+  color: #000000;
+}
+
+.week-summary {
+  padding: 16px;
+  border: 1px #ccc solid;
+  margin: 16px;
+}
+
+.week-summary__description {
+  color: #92140c;
+}
+
+.week-summary__title {
+  color: #5eff00;
+}
+
+.week-summary--special {
+  border: 1px #92140c solid;
 }
