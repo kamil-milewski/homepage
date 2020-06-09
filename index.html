@@ -10,25 +10,25 @@
   <body>
     <header class="header">
       <nav class="navigation">
-        <a class="navigation__link navigation__link--homepage" href="index.html">Stronga główna</a>
-        <a class="navigation__link" href="moje-postepy.html">Moje postępy</a>
-        <a class="navigation__link" href="nauka-html.html">Nauka HTML-a</a>
-        <a class="navigation__link" href="nauka-css.html">Nauka CSS-a</a>
+        <a class="navigation__link" href="lekcje-frontendu.html">Lekcje frontendu</a>
+        <a class="navigation__link" href="przydatne-linki.html">Przydatne linki</a>
       </nav>
     </header>
 
-    <main>
-      <header id="top">
-        <h1 class="main-heading main-heading--js">Kamil Milewski - blog z nauki frontendu</h1>
+    <main class="main">
+      <header class="main__header" id="top">
+        <h1 class="main__heading main__heading--js" id="name">
+          Kamil Milewski - przygoda z frontendem
+        </h1>
       </header>
 
-      <section>
-        <h2 class="secondary-heading">Kim jestem?</h2>
-        <img src="milewski-header.png" alt="Uśmiechnięty Milewski" />
-        <p>
+      <section class="about">
+        <h2 class="about__heading">Kim jestem?</h2>
+        <img class="about__picture" src="milewski-header.png" alt="Uśmiechnięty Milewski" />
+        <p class="about__description">
           Mam na imię Kamil. Mam 27 lat. Jestem szczęśliwym mężem i ojcem. Od
           najmłodszych lat ćwiczę
-          <a href="https://lskt.lublin.pl/">sztuki walki</a>, które pochłonęły
+          <a class="about__link" href="https://lskt.lublin.pl/">sztuki walki</a>, które pochłonęły
           mnie na długie lata.<br />
           Zawsze chciałem pójść w stronę programowania. Bardzo interesowało mnie
           to jak tworzone są strony www. Ta magia przyprowadziła mnie tutaj,
@@ -42,9 +42,9 @@
         </p>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       Strona domowa Kamila Milewskiego, wszystkie treści są efektem tworzenia
-      szkolenia WTF: Co ten frontend 2020. <a href="#top">Wróc na górę</a>
+      szkolenia WTF: Co ten frontend 2020. <a class="footer__link" href="#top">Wróc na górę</a>
     </footer>
     <script src="main.js"></script>
   </body>
