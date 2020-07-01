@@ -53,3 +53,57 @@ function helloWorld() {
 }
 
 helloWorld();
+
+
+const deathStar = {
+  diameter: 120000,
+  fire: (target) => {
+    console.log(`${target} destroyed 💥`)
+  },
+  isOperating: true,
+  levels: 357,
+  name: 'Death Star',
+  population: 10000,
+  isLightOn: true,
+  commander: {
+    name: 'Darth Vader',
+    age: 44,
+  }
+}
+
+
+deathStar.fire('Rebel ship')
+
+console.log(deathStar['name'])
+
+
+const myProperty = 'name'
+
+const showMeProperty = (myProperty) => {
+  console.log(`Twoja własność ${myProperty} to: ${deathStar[myProperty]}`);
+}
+
+showMeProperty('levels')
+
+const humanOne = {
+  name: 'Maciek',
+  age: 32,
+  address: {
+    street: 'Warszawska',
+    city: 'Białystok'
+  }
+}
+
+const humanTwo = {
+  name: 'Stefan',
+  age: 35,
+  address: {
+    street: humanOne.address.street,
+    city: 'Białystok'
+  }
+}
+
+console.log(humanOne);
+console.log(humanTwo);
+
+humanOne.address.street = 'Lipowa'
