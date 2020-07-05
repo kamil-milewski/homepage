@@ -1,3 +1,17 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/** w nowym projekcie warto to co powyżej wrzucić do nowego css-a :)
+* oraz dodać plik normalize.css ;)
+*/
+
 body {
   background: whitesmoke;
 }
@@ -83,7 +97,6 @@ nav a {
 }
 
 .about {
-
 }
 
 .about__heading {
@@ -100,7 +113,7 @@ nav a {
 }
 
 .footer__link {
-  color: #7c0000;  
+  color: #7c0000;
 }
 
 .list {
