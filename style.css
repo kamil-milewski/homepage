@@ -102,3 +102,11 @@ nav a {
 .footer__link {
   color: #7c0000;  
 }
+
+.list {
+  list-style: upper-roman;
+}
+
+.table {
+  width: 100%;
+}
