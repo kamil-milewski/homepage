@@ -107,3 +107,134 @@ console.log(humanOne);
 console.log(humanTwo);
 
 humanOne.address.street = 'Lipowa'
+
+//---------------------------------------------------
+// JS: Logika [06.02]
+
+if ('Java' != 'Javascript') {
+  console.log('Java to nie Javascript');
+}
+
+if (2 == '2') {
+  console.log('Java to nie Javascript');
+}
+
+if (2 === 2) {
+  console.log('Java to nie Javascript');
+}
+
+console.log(typeof 2);
+console.log(typeof '2');
+
+if (2 === '2') {
+  console.log('Java to nie Javascript');
+}
+
+if (2 != '2') {
+  console.log('Java to nie Javascript');
+}
+
+if (2 !== '2') {
+  console.log('Java to nie Javascript');
+}
+
+if (humanOne.age > humanTwo.age) {
+  console.log('Human one jest starszy');
+}
+
+if (humanOne.age === humanTwo.age) {
+  console.log('Są równolatkami ');
+}
+
+if (humanOne.age < humanTwo.age) {
+  console.log('Human two jest starszy');
+}
+
+if (false) {                            //FALSY - false, 0, ", "", ``, null, undefined, NaN (not a number)
+  console.log('to się nie wykona');
+}
+
+if ('abc') {                            //TRYTHY (cała reszta) - 'Tekst', 12' -4, {}, [], true, itd.
+  console.log('to się wykona');
+}
+
+if ((humanTwo.age === 35) && humanTwo.address) {  //operator AND - wszystkie warunki muszą być prawdziwe
+  console.log('to się wykona');
+}
+
+console.log(humanTwo.pet);
+
+if ((humanTwo.age === 35) && humanTwo.pet) {
+  console.log('to się wykona');
+}
+
+if ((humanTwo.age === 35) || humanTwo.pet) {   //operator OR - jeden z warunków ma być prawdziwy
+  console.log('to się wykona');
+}
+
+if ((humanTwo.age === 90) || humanTwo.address) {
+  console.log('to się wykona');
+}
+
+if (!false) {                                  //operator NOT - odwraca wartość wyrażenia logicznego
+  console.log('to się wykona');
+}
+
+if (!('Javascript' == 'Java')) {
+  console.log('to się wykona');
+}
+
+if (humanOne.age > humanTwo.age) {            // else - uproszeczenie dla zapisu z linijek 141 i 149
+  console.log('Human one jest starszy');      // jeżeli jest spełniony warunek to dzieje się ta linijka kodu. w tej linijsce może być więcej niż jedna instrukcja (np. mogą być funkcje, w których również można używać else)!
+} else {
+  console.log('Human two jest starszy lub są równolatkami');   // jeżeli warunek nad else nie został spełniony to dzieje się ta linijka kodu
+}
+
+if (humanOne.age > humanTwo.age) {
+  console.log('Human one jest starszy');
+} else {
+  console.log('Human two jest starszy lub są równolatkami');
+}
+
+if (humanOne.age > humanTwo.age) {            // else if
+  console.log('Human one jest starszy');
+} else if (humanOne.age === humanTwo.age) {
+  console.log('są równolatkami');
+}
+
+if (humanOne.age > humanTwo.age) {
+  console.log('Human one jest starszy');
+} else if (humanOne.age === humanTwo.age) {     // else if - można ich wypisać o wiele wiele więcej
+  console.log('są równolatkami');
+} else {
+  console.log('Human two jest starszy');
+}
+
+const myNumber = '7';
+
+switch (myNumber) {                           //switch - używamy kiedy znamy wartości jakie ma osiągnąć nasza zmienna!
+  case 7:
+    console.log('jestem siódemką');
+  break;
+  case 9:
+    console.log('jestem dziewiątką');
+  break;
+  default:
+    console.log('jestem czymś innym');
+}
+
+if (32 > 20) {                                //zapis klasyczny poniższego zapisu skróconego
+  console.log('to prawda');
+} else {
+  console.log('to nieprawda');
+}
+
+(32 > 20) ? console.log('to prawda') : console.log('to nieprawda')      //zapis skrócony - często wykorzystywany!!!
+
+const result = (32 > 20) ? console.log('to prawda') : console.log('to nieprawda')
+
+console.log(result);
+
+const result2 = (32 > 20) ? true : false;
+
+console.log(result2);
