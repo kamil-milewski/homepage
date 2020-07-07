@@ -26,7 +26,7 @@ function greetOld(age, firstName) {
 }
 
 //(Fat) arrow functions
-const greet = (age, firstName) => {
+const greet = (age, firstName) => { //PRACA DOMOWA TYDZIEŃ V
   console.log(
     `Witaj Drogi Odwiedzający, nazywam się ${firstName} i mam ${age} lat.`
   );
@@ -37,7 +37,7 @@ const calculate = (myNumber) => myNumber * 7;
 
 console.log(calculate(7));
 
-greet(27, "Kamil");
+greet(27, "Kamil"); //WYWOŁANIE FUNKCJI Z PRACY DOMOWEJ TYDZIEŃ V
 greetOld(27, "Kamil");
 
 //prosta funkcja bez opcji return, ale robiąca operację w środku

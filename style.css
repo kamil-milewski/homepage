@@ -13,8 +13,9 @@ html {
 */
 
 body {
-  background: whitesmoke;
-}
+  background-color: #FFFFFF;
+  background-image: linear-gradient(140deg, #FFFFFF 0%, #869bf9 50%, #ff7373 100%);
+  }
 
 section {
   background: #fefefe;
@@ -56,6 +57,10 @@ nav a {
   background: #97079c;
   padding: 16px;
   border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
 }
 
 .navigation__link {
