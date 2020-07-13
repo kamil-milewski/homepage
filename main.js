@@ -238,3 +238,13 @@ console.log(result);
 const result2 = (32 > 20) ? true : false;
 
 console.log(result2);
+
+
+const button = document.querySelector('.action--js');
+
+console.log(button)
+
+button.addEventListener('click', () => {                             //mouseenter, mouseleave, mouseover ...
+  const heading = document.querySelector(".main__heading--js");
+  heading.innerHTML = `Witaj Drogi Odwiedzający, nazywam się Kamil.`; 
+});
