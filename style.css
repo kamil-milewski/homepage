@@ -53,24 +53,30 @@ nav a {
   color: #04ac26;
 }
 
+.header {
+  background: #fff;
+  min-height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .navigation {
-  background: #97079c;
   padding: 16px;
-  border-radius: 8px;
-  display: flex;
-  justify-content: space-around;
-  height: 100px;
-  align-items: center;
+  display: none;
+}
+
+.navigation--open {
+  display: block;
 }
 
 .navigation__link {
   color: #ff7300;
-  display: inline-block;
-  margin-right: 20px;
+  display: block;
+  margin: 0 0 16px;
 }
 
 .navigation__link--homepage {
-  background: yellow;
   color: #000000;
 }
 
@@ -94,7 +100,7 @@ nav a {
 
 .main {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 60px auto 0;
 }
 
 .main__heading {
@@ -102,6 +108,7 @@ nav a {
 }
 
 .about {
+
 }
 
 .about__heading {
@@ -110,6 +117,11 @@ nav a {
 
 .about__link {
   color: #7c0000;
+}
+
+.about__picture {
+  display: block;
+  max-width: 100%;
 }
 
 .footer {
@@ -127,4 +139,30 @@ nav a {
 
 .table {
   width: 100%;
+}
+
+.klasa-z-js {
+  background: yellow;
+}
+
+.hamburger {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  border: none;
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+  .navigation {
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+  }
 }
