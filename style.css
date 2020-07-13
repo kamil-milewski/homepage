@@ -13,9 +13,14 @@ html {
 */
 
 body {
-  background-color: #FFFFFF;
-  background-image: linear-gradient(140deg, #FFFFFF 0%, #869bf9 50%, #ff7373 100%);
-  }
+  background-color: #ffffff;
+  background-image: linear-gradient(
+    140deg,
+    #ffffff 0%,
+    #869bf9 50%,
+    #ff7373 100%
+  );
+}
 
 section {
   background: #fefefe;
@@ -108,7 +113,6 @@ nav a {
 }
 
 .about {
-
 }
 
 .about__heading {
@@ -153,10 +157,18 @@ nav a {
   background: none;
 }
 
+
 @media (min-width: 768px) {
   .hamburger {
     display: none;
   }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+  }
+
   .navigation {
     padding: 16px;
     border-radius: 8px;
