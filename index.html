@@ -9,15 +9,27 @@
 </head>
 
 <body>
+	<header>
+		<nav>
+			<a href="index.html">Strona główna</a>
+			<a href="nauka-wtf.html">Nauka WTF</a>
+		</nav>
+	</header>
 	<main>
-		<header>
+		<header id="top">
 			<h1>Kamil Milewski – Strona domowa</h1>
 		</header>
 		<section>
 			<h2>Kim jestem?</h2>
-			<p>Hej! Na co dzień pracuję w logistyce. Od zawsze marzę o wejściu do świata programistycznego. Mam
-				nadzieję, że po tym kursie popchnę swoją karierę na dobre tory i zostanę programistą. Poza tym lubię
-				oglądać Formułę 1 oraz spędzać czas z żoną i dwoma córeczkami.</p>
+			<img src="kamil.jpg" alt="Zdjęcie Kamila Milewskiego"/>
+			<p>Hej! Na co dzień pracuję w <b>logistyce</b>. Od zawsze marzę o wejściu do <i>świata
+					programistycznego</i>.<br> Mam
+				nadzieję, że po tym kursie popchnę swoją karierę na dobre tory i zostanę programistą.<br> Poza tym lubię
+				oglądać <strong><a href="https://www.formula1.com" target="_blank">Formułę 1</a></strong> oraz spędzać
+				czas z <em>żoną i dwoma córeczkami</em>.</p>
+			<p>
+				Chcesz wiedzieć co to jest Kanban? <a href="#kanban">Poczytaj więcej.</a>
+			</p>
 		</section>
 		<section>
 			<h2>Notatki z WTF: Co ten frontend</h2>
@@ -46,7 +58,7 @@
 				<h3>Moduł 2: Devtoolsy, formatowanie kodu: trochę zabawy, trochę praktycznej wiedzy.</h3>
 				<p>Mała rzecz, a cieszy. Na chwilę obecną tyle.</p>
 			</article>
-			<article>
+			<article id="kanban">
 				<h3>Moduł 2: Kanban: planowanie pracy.</h3>
 				<p>Kanban - metoda planowania pracy. Pozwala nam na całościowe ogarnianie naszej
 					pracy/projektu/zainteresowań. Jej główną zaletą jest przejrzystość, dzięki czemu nasza praca staje
@@ -54,11 +66,11 @@
 					Najpierw planowanie roboty, następnie wykonywanie jednej rzeczy na raz i akceptacja końca.</p>
 			</article>
 		</section>
-		<footer>
-			<p>Strona domowa Kamila Milewskiego. Wszystkie treści/wypociny są efektem szkolenia WTF: Co ten frontend
-				stworzonymi przez góru frontendu, Maćka Korsana.</p>
-		</footer>
 	</main>
+	<footer>
+		<p>Strona domowa Kamila Milewskiego. Wszystkie treści/wypociny są efektem szkolenia WTF: Co ten frontend
+			stworzonymi przez góru frontendu, Maćka Korsana. <a href="#top">W górę 🆙</a></p>
+	</footer>
 </body>
 
 </html>
