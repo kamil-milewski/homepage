@@ -23,3 +23,28 @@ section {
 footer {
 	background: #F5F5F0;
 }
+
+.czerwony {
+	color: red;
+}
+
+#kanban {
+	background: yellow;
+}
+
+a {
+	color: green;
+}
+
+section a {
+	color: orange;
+}
+
+.my-article p {
+	background: #505F4E;
+	color: #fff;
+}
+
+#name {
+	color: red;
+}
