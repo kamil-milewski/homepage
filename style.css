@@ -14,22 +14,16 @@ body {
 
 h1 {
 	color: #5C5B57;
-	background: #F9E5C9;
 	padding: 16px;
 }
 
 h2 {
 	color: #5C5B57;
-	background: #F9E5C9;
 	padding: 16px;
 }
 
 h3 {
 	color: #505F4E;
-}
-
-section {
-	background: #9bb5ce;
 }
 
 footer {
@@ -58,7 +52,7 @@ footer {
 }
 
 section a {
-	color: orange;
+	color: red;
 }
 
 .my-article p {
@@ -71,6 +65,20 @@ section a {
 	color: red;
 }
 
-header {
+.navigation {
+	background: #9bb5ce;
 	padding: 16px;
+}
+
+.navigation__link {
+	color: #5C5B57;
+}
+
+.section {
+	background: #9bb5ce;
+	margin-bottom: 16px;
+}
+
+.section__header{
+	color: #5C5B57;
 }
