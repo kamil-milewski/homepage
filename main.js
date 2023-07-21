@@ -1,4 +1,4 @@
-alert('Witaj Świecie!');
+
 
 const firstName = 'Kamil';
 const age = 30;
