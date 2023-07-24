@@ -30,6 +30,8 @@ main {
 
 .footer__content {
 	color: black;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .footer__top--link {
@@ -50,8 +52,6 @@ main {
 .article__header {
 	color: #505F4E;
 	padding: 16px;
-	;
-	width: 60vw;
 	margin: 0 auto;
 	text-align: center;
 	border: 2px solid black;
@@ -95,7 +95,6 @@ main {
 .section__header {
 	color: #5C5B57;
 	background: #dbc97f;
-	width: 60vw;
 	margin: 0 auto;
 	text-align: center;
 	border: 2px solid black;
