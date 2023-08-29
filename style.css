@@ -44,6 +44,7 @@ main {
 }
 
 .top__header {
+	font-size: 1.5rem;
 	color: #fefefe;
 	padding: 16px;
 	max-width: 768px;
@@ -92,6 +93,7 @@ main {
 	background: #505F4E;
 	color: #fff;
 	padding: 16px;
+	margin-bottom: 0;
 	border: 2px solid black;
 	border-radius: 32px;
 }
@@ -139,4 +141,36 @@ main {
 	background: green;
 	display: block;
 	border-radius: 10px;
+}
+
+.article-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 12px;	
+}
+
+@media screen and (min-width: 768px) {
+	body {
+		background: black;
+	}
+	.article-grid {
+		grid-template-columns: 1fr 1fr;
+		gap: 24px;
+	}
+
+	.top__header {
+		font-size: 2rem;
+		color: hotpink;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.top__header {
+		font-size: 3rem;
+	}
+
+	.article-grid {
+		grid-template-columns: 1fr 1fr;
+	}
+
 }
