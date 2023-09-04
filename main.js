@@ -12,7 +12,3 @@ const greet = (name, age) => {
 }
 
 console.log(greet('Kamil', 30))
-
-const contentJs = document.querySelector('.article__content--js');
-
-contentJs.innerHTML = 'To ja, Twoje wypełnienie JS 👨‍💻'
